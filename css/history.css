@@ -1,0 +1,307 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	min-width: 1250px;
+}
+.headText{
+	background: url(../images/history.jpg);
+	width: auto;
+	height: 500px;
+	background-size: 100% 100%;
+}
+
+.one-top {
+	width: auto;
+	height: 40px;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.one-part {
+	width: auto;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+	color: white;
+	line-height: 35px;
+	margin: 0 10px;
+	padding: 0 10px;
+	font-weight: bold;
+	position: relative;
+}
+
+.one-part:hover {
+	color: #cc2105;
+}
+
+.one-part:hover:before {
+	left: 0;
+	width: 100%;
+}
+
+.one-part:before {
+	content: "";
+	width: 0;
+	border-bottom: 3px solid white;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transition: all linear 0.3s;
+}
+
+.one-part a {
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+}
+
+.historyBody{
+	line-height: 30px;
+	letter-spacing: 2px;
+	background: url(../images/historybgc.jpg);
+	background-size: 100% 100%;
+}
+
+p{
+	padding-top: 50px;
+	width: auto;
+	height: 200px;
+	text-indent: 2em;
+	font-family: "华文楷体";
+	font-size: 20px;
+}
+.gemMountain{
+	width: auto;
+	height: 500px;
+}
+.gemMountain-img{
+	float: left;
+	width: 40%;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.gemMountain-img img{
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	transition: transform 0.3s;
+}
+.gemMountain-img img:hover{
+		transform: scale(1.5);
+}
+.gemMountainTitle{
+	float: right;
+	width: 50%;
+	font-family: "华文行楷";
+	font-size: 35px;
+	line-height:45px ;
+}
+.gemMountainText{
+	text-indent: 2em;
+	float: right;
+	width: 50%;
+	font-family: "华文楷体";
+	font-size: 20px;
+}
+.name{
+	width: auto;
+	height: 600px;
+}
+.name-img{
+	float: right;
+	width: 40%;
+	border-radius: 50%;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.name-img img{
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	transition: transform 0.3s;
+}
+.name-img img:hover{
+		transform: scale(1.5);
+}
+.nameTitle{
+	float: left;
+	width: 50%;
+	font-family: "华文行楷";
+	font-size: 35px;
+	line-height:45px ;
+}
+.nameText{
+	float: left;
+	width: 50%;
+	text-indent: 2em;
+	font-family: "华文楷体";
+	font-size: 20px;
+}
+.nation{
+	width: auto;
+	height: 500px;
+}
+.nation-img img{
+	width: 400px;
+	height: 400px;
+border-radius: 50%;
+	transition: transform 0.3s;
+}
+.nation-img img:hover{
+		transform: scale(1.5);
+}
+.nation-img{
+	float: left;
+	width: 40%;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.nationTitle{
+	float: right;
+	width: 50%;
+	font-family: "华文行楷";
+	font-size: 35px;
+	line-height:45px ;
+}
+.nationText{
+	float: right;
+	width: 50%;
+	text-indent: 2em;
+	font-family: "华文楷体";
+	font-size: 20px;
+}
+.qianlong{
+	width: auto;
+	height: 500px;
+}
+.qianlong-img img{
+	width: 400px;
+	height: 400px;
+    border-radius: 50%;
+	transition: transform 0.3s;
+}
+.qianlong-img img:hover{
+	transform: scale(1.5);
+}
+.qianlong-img{
+	float: right;
+	width: 40%;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.qianlongTitle{
+	float: left;
+	width: 50%;
+	font-family: "华文行楷";
+	font-size: 35px;
+	line-height:45px ;
+}
+.qianlongText{
+	float: left;
+	width: 50%;
+	text-indent: 2em;
+	font-family: "华文楷体";
+	font-size: 20px;
+}
+.build{
+	width: auto;
+	height: 500px;
+}
+.build-img{
+	float: left;
+	width: 40%;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.build-img img{
+	width: 400px;
+	height: 400px;
+    border-radius: 50%;
+	transition: transform 0.3s;
+}
+.build-img img:hover{
+		transform: scale(1.5);
+}
+.buildTitle{
+	float: right;
+	width: 50%;
+	font-family: "华文行楷";
+	font-size: 35px;
+	line-height:45px ;
+}
+.buildText{
+	float: right;
+	width: 50%;
+	text-indent: 2em;
+	font-family: "华文楷体";
+	font-size: 20px;
+}
+.G20{
+	width: auto;
+	height: 500px;
+}
+.G20-img{
+	float: right;
+	width: 40%;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.G20-img img{
+	width: 400px;
+	height: 400px;
+    border-radius: 50%;
+	transition: transform 0.3s;
+}
+.G20-img img:hover{
+	transform: scale(1.5);
+}
+.G20Title{
+	float: left;
+	width: 50%;
+	font-family: "华文行楷";
+	font-size: 35px;
+	line-height:45px ;
+}
+.G20Text{
+	float: left;
+	width: 50%;
+	text-indent: 2em;
+	font-family: "华文楷体";
+	font-size: 20px;
+}
+.future{
+	width: auto;
+	height: 500px;
+}
+.future-img{
+	float: left;
+	width: 40%;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.future-img img{
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	transition: transform 0.3s;
+}
+.future-img img:hover{
+	transform: scale(1.5);
+}
+.futureTitle{
+	float: right;
+	width: 50%;
+	font-family: "华文行楷";
+	font-size: 35px;
+	line-height:45px ;
+}
+.futureText{
+	float: right;
+	width: 50%;
+	text-indent: 2em;
+	font-family: "华文楷体";
+	font-size: 20px;
+}

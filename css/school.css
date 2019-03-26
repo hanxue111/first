@@ -1,0 +1,185 @@
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 1250px;
+}
+
+.one {
+	/*大图*/
+	width: auto;
+	height: 550px;
+	position: relative;
+}
+
+.one img {
+	width: 100%;
+	height: 100%;
+}
+
+.one-top {
+	/*顶部导航*/
+	width: auto;
+	height: 40px;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.one-part {
+	width: auto;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+	color: white;
+	line-height: 35px;
+	margin: 0 10px;
+	padding: 0 10px;
+	font-weight: bold;
+	position: relative;
+}
+
+.one-part:hover {
+	color: #cc2105;
+}
+
+.one-part:hover:before {
+	left: 0;
+	width: 100%;
+}
+
+.one-part:before {
+	content: "";
+	width: 0;
+	border-bottom: 3px solid #cc2105;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transition: all linear 0.3s;
+}
+
+.one-part a {
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+}
+
+.two {
+	/*大图下第一部分*/
+	width: 100%;
+	height: 573px;
+	position: relative;
+}
+
+.container {
+	width: 1250px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.two-left {
+	/*左部分内容*/
+	width: 46%;
+	height: 70%;
+	float: left;
+	margin-left: 40px;
+}
+
+.two-part {
+	width: 5%;
+	height: 100%;
+	float: left;
+	font-size: 24px;
+	line-height: 30px;
+	padding: 0 10px;
+	font-family: "楷体";
+	border-right: 1px solid gray;
+}
+
+.two-right {
+	/*右部分*/
+	width: 50%;
+	height: 70%;
+	float: left;
+}
+
+.two-right img {
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.three {
+	/*大图下的第二部分*/
+	width: 100%;
+	height: 300px;
+	position: relative;
+}
+
+.three img {
+	/*设置图片样式*/
+	float: left;
+	width: 30%;
+	height: 100%;
+	margin-right: 5%;
+	border-radius: 20px;
+}
+
+.four {
+	/*设置大图下第三部分*/
+	width: 100%;
+	height: 600px;
+	position: relative;
+	margin-top: 80px;
+}
+
+.four-img {
+	width: 43%;
+	height: 92%;
+	padding: 40px;
+	float: left;
+}
+
+.four-img img {
+	width: 100%;
+	height: 90%;
+	border-radius: 20px;
+}
+
+.four-text {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.four-text h2 {
+	font-family: "华文行楷";
+	font-size: 40px;
+}
+
+.four-text div {
+	width: 100%;
+	float: left;
+	margin-top: 15px;
+	text-indent: 50px;
+	font-size: 20px;
+	font-family: "隶书";
+	text-align: justify;
+	line-height: 30PX;
+}
+
+.five {
+	/*大图下的第四板块，横图部分*/
+	width: 100%;
+	height: 350px;
+	position: relative;
+	margin-top: 50px;
+}
+
+.five img {
+	width: 30%;
+	height: 300px;
+	float: left;
+	margin-right: 5%;
+	border-radius: 20px;
+}

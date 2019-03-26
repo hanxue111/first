@@ -1,0 +1,137 @@
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 1250px;
+}
+
+.one {
+	/*顶部大图*/
+	width: 100%;
+	height: 550px;
+	position: relative;
+	background-image: url(../images/25.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.one-top {
+	width: auto;
+	height: 40px;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.one-part {
+	width: auto;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+	color: white;
+	line-height: 35px;
+	margin: 0 10px;
+	padding: 0 10px;
+	font-weight: bold;
+	position: relative;
+}
+
+.one-part:hover {
+	color: #cc2105;
+}
+
+.one-part:hover:before {
+	left: 0;
+	width: 100%;
+}
+
+.one-part:before {
+	content: "";
+	width: 0;
+	border-bottom: 3px solid #cc2105;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transition: all linear 0.3s;
+}
+
+.one-part a {
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+}
+
+.two,.four{/*版块二和板块四*/
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+.container{
+	width: 1250px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.two-text{
+	width: 60%;
+	height: 100%;
+	font-family: "华文行楷";
+	font-size: 20px;
+	line-height: 40px;
+	text-align: justify;
+	text-indent: 40px;
+	margin: 90px 0 0;
+}
+.img3{
+	width: 180px;
+	position: absolute;
+	top: 0;
+	right: 65px;
+}
+.img4{
+	position: absolute;
+	top: 120px;
+	right: 230px;
+}
+.three,.five{/*大图下第二板块和第四板块*/
+	width: 100%;
+	height: 700px;
+	position: relative;
+	margin-top: 50px;
+	background: url(../images/35.jpg);
+    overflow: hidden;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    position: relative;
+}
+.three-center{/*文字部分*/
+	width: 900px;
+	height: 100%;
+	margin: 0 auto;
+	color: white;
+}
+.three-center h2{
+	font-family: "华文行楷";
+	font-size: 40px;
+}
+.three-center div{
+	width: 800px;
+	height: 100%;
+	float: left;
+	margin-top: 15px;
+	text-indent: 50px;
+	font-size: 25px;
+	font-family: "隶书";
+	text-align: justify;
+	line-height: 40PX;
+}
+.img1{
+	position: absolute;
+	top: 170px;
+	left: 170px;
+}
+.img2{
+	position: absolute;
+	top: 30px;
+	left: 40px;
+}

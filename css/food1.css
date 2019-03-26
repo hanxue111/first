@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding: 0;
+	margin: 0;
+	min-width: 1250px;
+}
+.top{/*顶部样式*/
+	width: 100%;
+	height: 150px;
+	background-image: url(../images/05.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.one-top {
+	width: auto;
+	height: 40px;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.one-part {
+	width: auto;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+	color: white;
+	line-height: 35px;
+	margin: 0 10px;
+	padding: 0 10px;
+	font-weight: bold;
+	position: relative;
+}
+
+.one-part:hover {
+	color: #cc2105;
+}
+
+.one-part:hover:before {
+	left: 0;
+	width: 100%;
+}
+
+.one-part:before {
+	content: "";
+	width: 0;
+	border-bottom: 3px solid #cc2105;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transition: all linear 0.3s;
+}
+
+.one-part a {
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
+}
+.img1{/*"美食"背景图*/
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+.img2{/*“美食”文字图*/
+	width: 160px;
+	position: absolute;
+	top: 20px;
+	left: 232px;
+}
+.tu{/*顶部大图*/
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+.tu img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.threebe{
+	height:1500px;
+	background-color: white;
+	margin: 0 auto;
+	position: relative;
+	background: url(../images/01.jpg);
+	background-size:100% 100% ;
+	
+}
+.three{
+	padding-top:115px ;
+	width:800px ;
+	margin: 0 auto ;
+}
+.three2{
+	font-size: 35px;
+	color: black;
+	letter-spacing: 5px;
+	padding: 0 30px;
+	font-family: "华文行楷";
+	text-align: center;
+}
+.three18{
+	margin-top: 100px;
+	height: 370px;
+}
+.three19{
+    float: left;
+    height: 300px;
+    background-color:#D7D7D7;
+    width: 250px;
+    border-radius: 3%;
+    transition: transform 0.5s;
+}
+.three19:hover{
+	cursor: pointer;
+	transform: translate(0px,-10px);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.three4{
+	padding: 10px 20px;
+	width: 740px;
+	height: 20px;
+	font-size: 14px;
+	color: #000000;
+	border-bottom-style: dashed;
+	border-bottom-color: #000000;
+	margin: 0 10px;
+}
+.three5{
+	padding: 10px 20px;
+	width: 740px;
+	height: 20px;
+	font-size: 14px;
+	color: #000000;
+	border-bottom-style: dashed;
+	border-bottom-color: #000000;
+	margin: 0 10px;	
+}
+.three6{
+	width: 740px;
+	height: 173px;
+	padding: 10px 30px;
+}
+.three7{
+	font-size: 30px;
+	color: #000000;
+	border-left: solid 4px red; 
+	font-family: "华文楷体";
+}
+.three8{
+	font-size: 15px;
+	color: brown;
+	text-indent: 4em;
+	line-height: 30px;
+	letter-spacing: 2px;
+}
+.three9{
+	padding-top: 90px;
+	padding-left:30px ;
+}
+.three10{
+	font-size: 30px;
+	color: #000000;
+	padding: 0 8px;
+	font-family: "华文楷体";
+	border-left: solid 4px red; 
+}
+.three11{
+	font-size: 15px;
+	color: brown;
+	text-indent: 4em;
+	line-height: 30px;
+}
+.three12{
+	width: 740px;
+	height: 66px;
+	padding: 10px 30px;
+}
+.three13{
+	font-size: 30px;
+	color: #000000;
+	padding: 0 8px;
+	font-family: "华文楷体";
+	border-left: solid 4px red; 
+}
+.three14{
+	font-size: 15px;
+	color: brown;
+	text-indent: 4em;
+	line-height: 30px;
+	letter-spacing: 2px;
+}
+.three15{
+	width: 740px;
+	height: 170px;
+	padding: 10px 30px;
+}
+.three16{
+	font-size:30px;
+	color: #000000;
+	padding: 0 8px;
+	font-family: "华文楷体";
+	border-left: solid 4px red; 
+	padding: 5px 8px;
+}
+.three17{
+	font-size: 15px;
+	color: brown;
+	text-indent: 4em;
+	line-height: 30px;
+	letter-spacing: 2px;
+}

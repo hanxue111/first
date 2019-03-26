@@ -1,0 +1,318 @@
+body {
+	padding: 0;
+	margin: 0;
+	min-width: 1250px;
+}
+
+img {
+	border-radius: 10px;
+}
+
+.top {
+	/*顶部样式*/
+	width: 100%;
+	height: 150px;
+	background-image: url(../images/05.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.one-top {
+	width: auto;
+	height: 40px;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.one-part {
+	width: auto;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+	color: white;
+	line-height: 35px;
+	margin: 0 10px;
+	padding: 0 10px;
+	font-weight: bold;
+	position: relative;
+}
+
+.one-part:hover {
+	color: #cc2105;
+}
+
+.one-part:hover:before {
+	left: 0;
+	width: 100%;
+}
+
+.one-part:before {
+	content: "";
+	width: 0;
+	border-bottom: 3px solid #cc2105;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transition: all linear 0.3s;
+}
+
+.one-part a {
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
+}
+
+.img1 {
+	/*"美食"背景图*/
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+
+.img2 {
+	/*“美食”文字图*/
+	width: 160px;
+	position: absolute;
+	top: 20px;
+	left: 232px;
+}
+
+.tu {
+	/*顶部大图*/
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+.tu img {
+	width: 100%;
+	height: 100%;
+}
+
+.one {
+	/*美食一*/
+	width: 100%;
+	height: 740px;
+	background-image: url(../images/01.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.container {
+	/*设置以下内容全部居中*/
+	width: 1250px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.one-title,
+.three-title,
+.four-title {
+	/*美食标题*/
+	padding: 10px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	font-size: 20px;
+	position: absolute;
+	top: 110px;
+	left: 572px;
+}
+
+.one-title:hover {
+	/*触碰现下边框*/
+	border-bottom: 2px solid #684b4b;
+}
+
+.three-title:hover {
+	/*触碰现下边框*/
+	border-bottom: 2px solid #684b4b;
+}
+
+.four-title:hover {
+	/*触碰现下边框*/
+	border-bottom: 2px solid #684b4b;
+}
+
+.one-left,
+.three-right {
+	/*美食左部分*/
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.one-leftTop,
+.three-rightTop {
+	/*文字图片部分*/
+	width: 100%;
+	height: 280px;
+	margin-top: 190px;
+	position: relative;
+}
+
+.one-leftTop img {
+	margin: 0 30px;
+	float: left;
+}
+
+.three-rightTop img {
+	margin: 0 30px;
+	float: left;
+}
+
+.one-text,
+.three-text {
+	width: 370px;
+	float: left;
+	margin-top: 30px;
+	font-size: 14px;
+	text-indent: 32px;
+	text-align: justify;
+	letter-spacing: 2px;
+	line-height: 24px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 10;
+	-webkit-box-orient: vertical;
+}
+
+.one-btn,
+.three-btn {
+	/*“了解更多”*/
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	background-image: url(../images/02.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 60px auto;
+	transition: .4s;
+}
+
+.one-btn:hover {
+	transform: scale(0.9);
+}
+
+.three-btn:hover {
+	transform: scale(0.9);
+}
+
+.one-btn a,
+.three-btn a {
+	font-size: 20px;
+	line-height: 37px;
+	letter-spacing: 5px;
+	text-decoration: none;
+	color: white;
+}
+
+.one-right,
+.three-left {
+	/*美食版块 右部分*/
+	width: 50%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+.img3 {
+	width: 400px;
+	height: 400px;
+	margin: 200px 112px;
+}
+
+.img4 {
+	width: 370px;
+	height: 370px;
+	position: absolute;
+	top: 212px;
+	left: 127px;
+}
+
+.two {
+	/*版块二 其他美食*/
+	width: 100%;
+	height: 350px;
+	background-color: #F5F5E9;
+	position: relative;
+}
+
+.two-tu {
+	width: 297px;
+	height: 297px;
+	margin-right: 20px;
+	float: left;
+	overflow: hidden;
+}
+
+.two img {
+	width: 100%;
+	height: 100%;
+	transition: .4s;
+}
+
+.two img:hover {
+	/*触碰时图片放大*/
+	transform: scale(1.4);
+}
+
+.three {
+	/*美食二版块*/
+	width: 100%;
+	height: 700px;
+	background-image: url(../images/15.jpg);
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.four {
+	/*美食榜版块*/
+	width: 100%;
+	height: 600px;
+	background-image: url(../images/03.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+.four-bottom {
+	width: 100%;
+	height: 425px;
+	position: absolute;
+	top: 175px;
+}
+
+.four-part {
+	width: 25%;
+	height: 50px;
+	float: left;
+	padding: 0 131px 10px;
+	border-bottom: 1px solid #CCCCCC;
+	position: relative;
+}
+
+.four-list {
+	margin: 0 20px 0 30px;
+	font-size: 30px;
+	float: left;
+	cursor: pointer;
+}
+
+.four-name {
+	font-size: 25px;
+	float: left;
+	cursor: pointer;
+}
+
+.four-list:hover {
+	color: red;
+}
+
+.four-name:hover {
+	color: red;
+}

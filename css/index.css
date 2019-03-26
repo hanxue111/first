@@ -1,0 +1,332 @@
+body {
+	padding: 0;
+	margin: 0;
+	min-width: 1350px;
+}
+
+.one {
+	width: 100%;
+	height: 755px;
+	overflow: hidden;
+	position: relative;
+}
+
+#imagelist {
+	list-style-type: none;
+	position: absolute;
+	left: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#imagelist li {
+	float: left;
+}
+
+#imagelist img {
+	width: 1519px;
+}
+
+#one-anniu {
+	position: absolute;
+	bottom: 50px;
+	right: 125px;
+}
+
+#one-anniu a {
+	width: 25px;
+	height: 25px;
+	margin: 0 5px;
+	background-color: white;
+	float: left;
+	opacity: 0.5;
+	/*兼容IE8透明*/
+	filter: alpha(opacity=50);
+}
+
+#one-anniu a:hover {
+	background-color: black;
+}
+
+.one-top {
+	width: auto;
+	height: 40px;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.one-part {
+	width: auto;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+	color: white;
+	line-height: 35px;
+	margin: 0 10px;
+	padding: 0 10px;
+	font-weight: bold;
+	position: relative;
+}
+
+.one-part:hover {
+	color: #cc2105;
+}
+
+.one-part:hover:before {
+	left: 0;
+	width: 100%;
+}
+
+.one-part:before {
+	content: "";
+	width: 0;
+	border-bottom: 3px solid #cc2105;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transition: all linear 0.3s;
+}
+
+.one-part a {
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+}
+
+.one-center {
+	width: 310px;
+	height: 180px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -115px;
+	margin-left: -180px;
+}
+
+.one-center img {
+	width: 100%;
+	height: 100%;
+}
+
+.zheng {
+	width: 100%;
+	height: 3000px;
+	background-color: #EBEBEB;
+	position: relative;
+}
+
+.two {
+	width: 100%;
+	height: 755px;
+	position: relative;
+}
+
+.container {
+	width: 1350px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.two-left {
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.two-left img {
+	position: absolute;
+	top: 55px;
+	left: 0px;
+}
+
+.two-down {
+	width: 520px;
+	height: 290px;
+	position: absolute;
+	top: 200px;
+	left: 50px;
+	text-indent: 1em;
+	font-size: 25px;
+	letter-spacing: 2px;
+	line-height: 27px;
+	font-family: "隶书";
+}
+
+.two-right {
+	width: 50%;
+	height: 575px;
+	padding: 180px 0 0;
+	float: left;
+	position: relative;
+}
+
+.three {
+	width: 100%;
+	height: 755px;
+	position: relative;
+	background-color: #f9f9ed;
+}
+
+.three-title {
+	width: 100%;
+	height: 90px;
+	font-family: "华文行楷";
+	font-size: 90px;
+	letter-spacing: 3px;
+	padding-top: 50px;
+}
+
+.three-part {
+	width: 238px;
+	height: 400px;
+	margin: 60px 40px 50px 0;
+	float: left;
+	background-color: white;
+	transition: all 1s;
+	position: relative;
+}
+
+.three-part:hover {
+	border-radius: 0 90px;
+	background-color: blue;
+	position: relative;
+	top: -40px;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, .6);
+}
+
+.three-part img {
+	margin: 90px 51px 40px;
+	width: 135px;
+}
+
+.three-part p {
+	margin: 20px;
+	text-align: center;
+	font-size: 40px;
+	cursor: pointer;
+	font-family: "隶书";
+}
+
+.three-part:hover.three-part p {
+	color: white;
+}
+
+.new {
+	font-family: "华文行楷";
+	font-size: 90px;
+}
+
+.news {
+	width: 1350px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.newLeft {
+	width: 50%;
+	height: 500px;
+	float: left;
+	display: inline-block;
+	position: relative;
+}
+
+.newLeft img {
+	width: 200px;
+}
+
+.img1 {
+	transform: rotate(40deg);
+	position: absolute;
+	left: 50px;
+	top: 30px;
+}
+
+.img1:hover {
+	z-index: 1;
+	transform: rotate(25deg);
+}
+
+.img2 {
+	position: absolute;
+	left: 20px;
+	top: 150px;
+	z-index: 0;
+	transform: rotate(-5deg);
+}
+
+.img2:hover {
+	z-index: 1;
+	transform: rotate(0deg);
+}
+
+.img3 {
+	transform: rotate(-24deg);
+	position: absolute;
+	left: 230px;
+	top: 20px;
+}
+
+.img3:hover {
+	z-index: 1;
+	transform: rotate(-20deg);
+}
+
+.img4 {
+	transform: rotate(30deg);
+	position: absolute;
+	left: 270px;
+	top: 150px;
+}
+
+.img4:hover {
+	z-index: 1;
+	transform: rotate(22deg);
+}
+
+.newRight {
+	width: 50%;
+	float: left;
+	line-height: 30px;
+	font-family: "华文楷体";
+	font-size: 20px;
+	display: inline-block;
+}
+
+.end {
+	width: 100%;
+	height: 320px;
+	position: relative;
+}
+
+.end1 {
+	width: 100%;
+	height: 250px;
+	background-color: #1B191A;
+	color: white;
+	line-height: 35px;
+}
+
+.endleft {
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 260px;
+}
+
+.endright img {
+	padding-top: 25px;
+	width: 180px;
+	margin-left: 40px;
+}
+
+.end2 {
+	width: auto;
+	background-color: #000000;
+	color: white;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+}

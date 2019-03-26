@@ -1,0 +1,266 @@
+body {
+	margin: 0;
+	padding: 0;
+	min-width: 1250px;
+}
+
+img {
+	border-radius: 10px;
+}
+
+img:hover {
+	border-radius: 10px;
+}
+
+.one {
+	/*顶部大图*/
+	width: 100%;
+	height: 700px;
+	position: relative;
+	background-image: url(../images/25.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.one-top {
+	width: auto;
+	height: 40px;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.one-part {
+	width: auto;
+	height: 100%;
+	float: left;
+	cursor: pointer;
+	color: white;
+	line-height: 35px;
+	margin: 0 10px;
+	padding: 0 10px;
+	font-weight: bold;
+	position: relative;
+}
+
+.one-part:hover {
+	color: #cc2105;
+}
+
+.one-part:hover:before {
+	left: 0;
+	width: 100%;
+}
+
+.one-part:before {
+	content: "";
+	width: 0;
+	border-bottom: 3px solid #cc2105;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transition: all linear 0.3s;
+}
+
+.one-part a {
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+}
+
+.img1 {
+	/*最好*/
+	width: 290px;
+	position: absolute;
+	right:50%;
+	top: 40%;
+}
+
+.img2 {
+	/*在杭州*/
+	position: absolute;
+	right:40%;
+	top: 60%;
+}
+
+.two {
+	/*图下板块一*/
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+
+.container {
+	width: 1250px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.two-title {
+	/*小标题部分*/
+	width: 430px;
+	height: 50px;
+	margin: 30px auto;
+	padding: 30px 60px;
+	background-color: #0e0e9c;
+	position: relative;
+}
+
+.two-title p {
+	font-size: 40px;
+	color: white;
+	margin: 0;
+	letter-spacing: 8px;
+	float: left;
+}
+
+.two-title img {
+	position: absolute;
+	top: 0;
+}
+
+.two-container {
+	/*小标题下的内容部分*/
+	width: 100%;
+	height: 510px;
+	position: relative;
+}
+
+.two-else {
+	/*蓝色板块部分*/
+	width: 100%;
+	height: 80px;
+	padding-top: 150px;
+	position: absolute;
+	top: 280px;
+	left: 0;
+	background-color: #0e0e9c;
+}
+
+.two-name {
+	width: 33%;
+	float: left;
+	text-align: center;
+	letter-spacing: 8px;
+}
+
+.two-name a {
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.two-else1 {
+	/*蓝色板块上面的内容*/
+	width: 90%;
+	height: 330px;
+	position: absolute;
+	top: 50px;
+	left: 60px;
+}
+
+.two-part {
+	/*图片部分的样式*/
+	width: 30%;
+	height: 100%;
+	float: left;
+	margin-right: 5%;
+	position: relative;
+}
+
+.a,
+.b,
+.c {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.a,
+.b {
+	visibility: hidden;
+}
+
+.a {
+	transform: rotate(90deg);
+}
+
+.b {
+	transform: rotate(-45deg);
+}
+
+.c {
+	transform: rotate(-45deg);
+	visibility: visible;
+}
+
+.c img {
+	width: 100%;
+	height: 100%;
+	transition: all 1s;
+}
+
+.c img:hover {
+	transform: scale(1.5);
+}
+
+.three {
+	/*图下版块二*/
+	width: 100%;
+	height: 540px;
+	position: relative;
+}
+
+.three-else {
+	/*小标题以外部分*/
+	width: 100%;
+	height: 320px;
+	margin-top: 60px;
+	position: relative;
+}
+
+.three-part {
+	width: 30%;
+	height: 100%;
+	margin-right: 5%;
+	float: left;
+	background-color: #0e0e9c;
+}
+
+.three-part img {
+	width: 100%;
+	height: 100%;
+	transition: all 1s;
+}
+
+.three-part img:hover {
+	transform: scale(0.1);
+}
+
+.four {
+	width: 100%;
+	height: 600px;
+	margin-top: 80px;
+	position: relative;
+}
+
+.four-part {
+	width: 30%;
+	height: 100%;
+	margin-right: 5%;
+	float: left;
+	background-color: #0e0e9c;
+	transition: all .5s linear;
+}
+
+.four-part img {
+	width: 100%;
+	height: 100%;
+}
+
+.four-part:hover {
+	position: relative;
+	top: -20px;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, .9);
+}
